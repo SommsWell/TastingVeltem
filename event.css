@@ -105,10 +105,20 @@ header p {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    padding: 20px; /* Optional: Adds padding around the gallery */
 }
+
+.logo {
+    max-width: 100px; /* Adjust width as needed */
+    max-height: 100px; /* Adjust height as needed */
+    object-fit: contain; /* Ensures logos keep their aspect ratio */
+}
+
 
 .gallery img {
     width: 100px;
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease, box
+
+
